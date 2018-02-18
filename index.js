@@ -25,9 +25,9 @@ module.exports = (repo, targetPath, opts, cb) => {
 
     const process = spawn(git, args)
 
-    process.stderr.on('data', (data) => {
-        console.log(`Git output:\n${data}`)
-    })
+    // process.stderr.on('data', (data) => {
+    //     console.log(`Git output:\n${data}`)
+    // })
 
     process.on('close', function(status) {
         if (status == 0) {
