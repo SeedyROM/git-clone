@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/jaz303/git-clone/issues"
   },
-  "homepage": "https://github.com/jaz303/git-clone"
+  "homepage": "https://github.com/jaz303/git-clone",
+  "dependencies": {}
 }
